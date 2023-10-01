@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .body {
+            width: auto;
+            height: auto;
+        }
+
+        .buttons {
+            
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 12rem;
+            margin: 90px auto auto auto;
+        }
+
+        .buttonsBaseStyles {
+            background-color: #e04848;
+            color: rgb(0, 0, 0);
+            padding: 15px;
+            background-color: #48abe0;
+            border: none;
+            box-shadow: 0 2px 4px darkslategray;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+
+        .calculate_numbers {
+            color: aliceblue;
+            padding: 15px;
+            background-color: #e04d48;
+            border: none;
+            box-shadow: 0 2px 4px darkslategray;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+
+        .minimum_value_of_Array {
+            background-color: #8f48e0;
+            color: rgb(255, 255, 255);
+        }
+
+    </style>
+</head>
+<body>
+   <div class="buttons">
+        <button class="buttonsBaseStyles show_results" onclick="showResultsOnPage()">Show results on page</button>
+        <button class="buttonsBaseStyles calculate_numbers" onclick="calculation()">Calculate numbers</button>
+        <button class="buttonsBaseStyles minimum_value_of_Array" onclick="findMaxNumber()">Show minimum value of array</button>
+   </div>
+
+    <script src="./script.js"></script>
+    <script src="./function2.js"></script>
+    <script src="./function3.js"></script>
+</body>
+</html>
